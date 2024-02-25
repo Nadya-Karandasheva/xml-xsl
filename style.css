@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Стили блока с сылками на файлы задания */
+.task-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 34px;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+button {
+    width: min-content;
+    padding: 6px 8px;
+    background-color: #333;
+    border: 0px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
